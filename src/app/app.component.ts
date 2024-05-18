@@ -15,5 +15,7 @@ export class AppComponent {
 		this.getMessage();
 	}
 
-	getMessage(): void {}
+	getMessage(): string {
+		return '';
+	}
 }
