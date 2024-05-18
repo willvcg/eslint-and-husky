@@ -2,4 +2,5 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 # npm test
+# Esta configuración hace que el formateo se aplique a todos los archivos de tu proyecto
 npm run format &&  ng lint --fix  && git add .
