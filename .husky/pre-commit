@@ -4,3 +4,6 @@
 # npm test
 # Esta configuración hace que el formateo se aplique a todos los archivos de tu proyecto
 npm run format &&  ng lint --fix  && git add .
+
+# Con la ayuda de pretty-quick, puedes formatear y lintear solo los archivos que se han modificado en tu rama actual.
+# npx pretty-quick --pattern "src/**/*.*(ts|json|html|css)" --staged  && ng lint --fix
